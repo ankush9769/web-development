@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 150px;
+    border: 2px black solid;
+    text-align: center;
+    display: inline-block;
+}
+/* for creating the flex container we just write display: flex 
+   flex-direction:row/row-reverse/columb/column-reverse
+
+   justify-conent: flex-start   (same direction but left side)
+                   flex-end     (same direction but right side)
+                   center  (same direction but center)
+                   space-around (will distribute the all unwanted space to all content)
+                   space-between (equally space will distribute between the content)
+                   space-evenly (equall space)
+*/
+#container{
+    height: 700px;
+    width: 500px;
+    position: relative;
+    left: 350px;  
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+  /*  justify-content: space-around; */
+    flex-wrap: wrap;
+    /* align-items: flex-start;  
+    align-content: flex-start; */ 
+    /* align-content:center/flex-start/flex-end */
+}
+/* some item propery
+    align-self=algnment of the item along with cross axis
+    flex-grow= */
+#box2{
+    height: 150px;
+}
+#box3{
+    height: 75px;
+}
+#box4{
+    align-self: flex-end;
+}
+/* there are one more things 
+flex-grow=1    (then the specified item will grow)
+flex-shrink=1  (then the specified item will shrink) */
