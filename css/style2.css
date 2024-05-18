@@ -1,0 +1,53 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+    border: 3px solid  blue;
+    border-radius: 10%;
+    text-align: center;
+/* border-radius is used for set the curveness of the edges of the border */
+}
+button{
+    height:40px;
+    width: 100px;
+    background-color: rgb(236, 252, 92);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    background-color: #e51eff;
+    border-width: 10px;
+    border-style: solid;
+    margin-left: 450px;
+    
+}
+p{
+    border-width: 3px;
+    border-style: dotted;
+    border-color: brown;
+   
+    border:3px dotted brown ;
+    /* border can also written by in sort manner  */
+}
+div{
+    /* now we are studying the padding */
+    padding-left: 50px;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    /* there is another way to give the padding */
+    padding: 50;
+    /* or */
+    padding: 50 50 50 50;         /* clock wise *5
+  
+    /* now its time to learn about the margin */
+    margin-top:20px ;
+    margin-bottom: 20px;
+    margin-left: 600px;
+    /* there is also sorthand of the margin */
+    margin: 20px 600px 20px 600px;
+
+}
+  
