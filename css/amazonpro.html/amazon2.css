@@ -1,0 +1,83 @@
+/*hero_section*/
+.hero_section{
+    width: 1345px;
+    height: 309px;
+    background-image: url("gaming.jpg");
+    background-size: cover;
+}
+.link{
+    width: 1280px;
+    height: 40px;
+    background-color: white;
+    font-size:14px;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    align-content: center;
+    margin-left: 30px;
+}
+#amazon_in{
+    color: #007185;
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    left: -13px;
+}
+
+
+/*shell_section*/
+.sell_section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1345px;
+    height: 2230px;
+    background-color: rgb(158 158 158 / 29%);;
+    justify-content:center ;
+    justify-content: space-evenly ;
+}
+.box{
+    background-color: white;
+    width: 298px;
+    height: 420px;
+    position: relative;
+    top: 27px;
+}
+h2{
+    padding-left: 19px;
+    padding-top: 26px;
+    font-size: 20px;
+}
+a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #007185;
+    padding-left: 19px;
+    position: absolute;
+    bottom: 24px;
+}
+.img{
+    width:268px ;
+    height:300px;
+    position:absolute;
+    top: 55px;
+    right: 15px;
+    
+}
+.box17{
+    width: 1280px;
+    height: 280px;
+    background-color: white;
+}
+.box17inner{
+    display: flex;
+    width: 1280px;
+    height: 200px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.imgdiv{
+    width: 93px;
+    height: 200px;
+    
+}
+
