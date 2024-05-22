@@ -1,0 +1,67 @@
+footer{
+    width: 1344px;
+    height: 600px;
+    background-color: #232F3E;
+}
+.first{
+    text-align: center;
+    align-content: center;
+    font-size: 13px;
+    color: white;
+    height: 49px;
+    background-color: #2d3d51;
+}
+.second{
+    justify-content: space-evenly;
+    display: flex;
+    height: 430px;
+}
+.third{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 115px;
+}
+.contentbox{
+    color: white;
+}
+label{
+    font-size: 12px;
+}
+.footerheading{
+    padding-left: 0px;
+    text-align: left;
+}
+.lowerdiv0{
+    margin-right: 70px;
+    background-image: url("lowerlogo.png");
+    width: 90px;
+    height: 34px;
+}
+.lowerdiv1{
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    border: 0.5px white solid;
+    width: 116px;
+    height: 34px;
+}
+.lowerdiv2{
+    margin-right: 20px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    border: 0.5px white solid;
+    width: 150px;
+    height: 34px;
+}
+.lowerdiv3{
+    color: white;
+    align-content: center;
+    text-align: center;
+    border: 0.5px white solid;
+    width: 141px;
+    height: 34px;
+}
