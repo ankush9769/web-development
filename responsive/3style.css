@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 60vh;
+    width: 30vw;
+    background-color: #51ff00;
+    border: 0.5em black solid;
+}
+@media (max-width:600px) {
+    .box{
+        background-color: aqua;
+        border: 0.2em red dashed;
+        border-radius: 0.5em;
+    }
+    
+}
+

@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color:black;
+}
+.top{
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: 600;
+  
+    background-color: rgb(179, 203, 224);
+}
+.top p{
+    color: black;
+    padding: 0.7vw 6vw;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px gray solid;
+}
+.nav-part2{
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 6vw;
+    font-size: 1.5vw;
+}
+.nav-part2 h2{
+    color: red;
+    font-weight: 900;
+}
+.icon{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 4vw;
+}
+.icon i, .icon p{
+    color: black;
+    margin-right: 1vw;
+}
+.img{
+    width: 100%;
+    height: 70vh;
+    background-image: url(img2.jpg);
+    background-size: contain;
+    justify-content: center;
+    
+}
+.top1{
+    width: 70%;
+    height: 3vw;
+    display: flex;
+    margin-left: 14vw;
+    padding-top: 3vw;
+}
+#content{
+    align-items: center;
+    width: 34vw;
+    display: flex;
+    margin-left: 0.5vw;
+    font-weight: 600;
+    padding-left: 1vw;
+    
+}
+.first{
+    background-color:rgb(225, 235, 238);
+}
+.first i{
+    color: rgb(255, 4, 4);
+}
+.first p{
+    color: rgb(255, 0, 0);
+}
+.second ,.third{
+    background-color: rgb(61, 59, 59);
+}
+.second  i,p,.third i,p{
+    color: white;
+}
+
+.top2{
+    width: 69.5%;
+    height: 10vw;
+    background-color: rgb(225, 235, 238);
+    margin-left: 14.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#b1{
+    width: 30%;
+    height: 2.9vw;
+    border: 1px black solid;
+    background-color: white;
+    border-radius: 2px;
+    padding-left: 0.7vw;
+    align-content: center;
+}
+button{
+    height:2.9vw ;
+    background-color: red;
+    color: white;
+    width: 14%;
+    border: none;
+    border-radius: 2px;
+}
+.box1 p{
+    color: black;
+    font-size: 1vw;
+}
+.box2 {
+    align-items: center;
+}
+
+.last{
+    background-color: rgb(116, 116, 230);
+    width: 100%;
+    height: 13.2vh;
+    justify-content: space-around;
+    justify-content: center;
+}
+#id1{
+    width: 40%;
+    height: 3vh;
+    background-color: white;
+}
+
+

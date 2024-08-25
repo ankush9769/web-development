@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color:black;
+}
+
+.nav{
+    /*height: 9vw;*/
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right:3vw;
+    border-bottom: 3px rgb(102, 99, 99) solid;
+}
+.nav-part2{
+    align-items: center;
+    display: flex;
+    gap: 4vw;
+}
+.nav h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    text-shadow: gray 4px 5px 5px;
+}
+.nav h4{
+    font-size:1.8vw;
+    text-shadow: gray 4px 5px 5px;
+}
+.nav-part2 i{
+    font-size: 1.4vw;
+    display: none;
+}
+.content{
+    width: 100%;
+    /*height: calc(100% - 70px);*/
+    height:87.5vh;
+    background-color: rgb(236, 160, 61);
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 83%;
+    /*background-color: rgb(53, 240, 36);*/
+    background-color: rgb(255, 255, 255);
+    padding: 5vw 2.4vw;
+}
+.left h1{
+    font-size: 4vw;
+    font-weight: 900;
+    width: 80%;
+}
+.left h1 span{
+    color: rgb(226, 98, 66);
+}
+.left p{
+    font-size: 1.5vw;
+    width: 70%;
+    margin: 1.0vw 0vw;
+    font-weight: 500;
+}
+button{
+    font-size: 1.2vw;
+    margin: 1.3vw 0vw;
+    padding: 1vw 2.3vw;
+    border-radius: 5px;
+    background-color: rgb(226, 98, 66); 
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /*background-color: rgb(10, 216, 243);*/
+    background-color: rgb(7, 59, 28);
+}
+.right img{
+    width: 100%;
+    height: 80vh;
+}
+
+
+@media (max-width:600px) {
+    .nav{
+        
+    }
+    .nav h1{
+        padding-left: 5vw;
+        font-size: 8vw;
+        color:rgb(0, 0, 0);
+    }
+    .nav-part2 h4{
+        font-size: 4vw;
+        display: none;
+        
+    }
+    .nav-part2 i{
+        padding-right: 2vw;
+        font-size: 7vw;
+        font-weight: 700;
+        display: block;
+        color:rgb(0, 0, 0);
+    }
+    .nav-part2 button{
+        display: none;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        padding: 8vw 7vw;
+    }
+    .left h1{
+        font-size: 7vw;
+    }
+    .left p{
+        margin-top: 4vw;
+        font-size: 3vw;
+        width: 80vw;
+    }
+    .left button{
+        margin-top: 4vw;
+        font-size: 4vw;
+        padding: 2vw 3vw;
+    }
+    .right{
+        width: 100%;
+    }
+    .right img{
+        width: 100%;
+        height: 90%;
+        
+    }
+}
+

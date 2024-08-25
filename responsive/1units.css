@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    width: 400px;
+    height: 570px;
+    background-color: red;
+}
+#inner{
+    width: 50%;    /*    % is work or dependnce on there parents */
+    height: 50%;
+    background-color: aqua;
+}
+
+
+#box1{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(20, 34, 230);
+}
+#inner1{
+    width: 70vw;    /*    vw = veiwport width is work or dependnce on your screen width*/
+    height: 80vh;    /*    vh = veiwport height is work or dependnce on your screen height*/
+    background-color: aqua;
+}
+h1{
+    font-size: 4vw;
+}
+#h1{
+    font-size: 4vh;
+}
+
+.emandrem{
+    background-color: grey;
+    font-size: 30px;
+}
+.h31{
+    font-size:1em;  /* em is set the size of anythings by taking the refference of the parent property*/
+}
+.h32{
+    font-size:2em;
+}
+.h33{
+    font-size:3em;
+}
+/*  rem 1rem=60px */
